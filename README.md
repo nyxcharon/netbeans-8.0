@@ -9,3 +9,5 @@ $ wget https://github.com/nyxcharon/netbeans-8.0/raw/master/dist/netbeans-8.0_al
 $ sudo dpkg -i netbeans-8.0_all.deb
 ```
 
+This package assumes it has outbound internet access to download the netbeans installer.
+
