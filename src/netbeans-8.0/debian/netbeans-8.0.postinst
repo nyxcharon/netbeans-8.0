@@ -1,0 +1,11 @@
+#! /bin/bash
+
+#Download installer
+wget -O /tmp/netbeans.sh --progress=bar http://download.netbeans.org/netbeans/8.0/final/bundles/netbeans-8.0-linux.sh
+
+#Make executable
+chmod +x /tmp/netbeans.sh
+
+#Run in silent mode
+bash /tmp/netbeans.sh --silent 
+

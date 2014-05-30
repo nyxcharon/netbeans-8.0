@@ -1,0 +1,12 @@
+Source: netbeans-8.0
+Section: admin
+Priority: optional
+Maintainer: Bobby Martin <bobby.martin@mail.wvu.edu>
+Build-Depends: cdbs, debhelper (>= 5.0.0)
+Standards-Version: 3.9.4
+
+Package: netbeans-8.0
+Architecture: all
+Depends: openjdk-7-jdk
+Description: Installs netbeans 8.0
+ Installs netbeans 8.0 
