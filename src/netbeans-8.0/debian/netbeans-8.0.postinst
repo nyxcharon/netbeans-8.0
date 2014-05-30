@@ -7,5 +7,6 @@ wget -O /tmp/netbeans.sh --progress=bar http://download.netbeans.org/netbeans/8.
 chmod +x /tmp/netbeans.sh
 
 #Run in silent mode
+echo "Running installer, please wait"
 bash /tmp/netbeans.sh --silent 
 
